@@ -1,32 +1,25 @@
 # Supabase + React + TypeScript TEST
 
+![screenshot](./doc/screen.png)
+
 A test application built with React, TypeScript, to learn [Supabase](https://supabase.com/). This project demonstrates how to use Supabase as a backend for a simple book and author management system.
-The application allows users to view, add, and delete books, as well as manage the relationships between them.
+The application allows users to view, add, and delete books, as well as manage the relationships with authors.
 
 
 ### Prerequisites
-
 - Node.js (v18 or newer)
-- npm or yarn
 - Supabase account and project
 
 ### Installation and usage
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd supabase-test
-   ```
-
-2. Install dependencies:`npm install`
-3. Create a `.env` file in the root directory with your Supabase credentials:
+1. Clone the repository and Install dependencies:`npm install`
+2. Create a `.env` file in the root directory with your Supabase credentials:
    ```
    VITE_SUPABASE_URL=your_supabase_url
    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
 
-4. Start the development server: `npm run dev`
-5. Open your browser and visit `http://localhost:5173`
+3. Start the development server: `npm run dev`and open your browser and visit `http://localhost:5173`
 
 ## Database Schema
 
